@@ -12,7 +12,7 @@ export const Todo = ({ task, toggleComplete, deleteTodo, editTodo }) => {
       </p>
       <div>
         <button onClick={() => editTodo(task.id)} className="update-btn">
-          update task
+          update
         </button>
         <button onClick={() => deleteTodo(task.id)} className="delete-btn">
           delete
